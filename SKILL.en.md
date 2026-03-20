@@ -9,6 +9,8 @@ description: Kling AI Image Generation API tool. Supports text-to-image, image-t
 
 Kling AI image generation service providing text-to-image, image-to-image, expansion, and various image generation and editing capabilities.
 
+> 🔒 **Security Note**: This skill requires calling the Kling AI official API (`api-beijing.klingai.com`) and uses user-provided API Keys for JWT authentication. All credentials are stored only in local environment variables and will not be uploaded or shared.
+
 ## Quick Start
 
 ### 1. Configure Environment Variables
